@@ -1,0 +1,4 @@
+map_file_dir:../dir/to/file.map
+special_sections:*(.rodata*),*(.eh_frame*)
+sections:__bss_start__,__bss_end__,__data_start__,__data_end__
+
